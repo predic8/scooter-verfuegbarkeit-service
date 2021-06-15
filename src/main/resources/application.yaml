@@ -25,7 +25,7 @@ management:
 
 opentracing:
   jaeger:
-    service-name: verfuegbarkeitsservice
+    service-name: verfuegbarkeits-service
     enabled: true
     udp-sender:
       host: localhost
