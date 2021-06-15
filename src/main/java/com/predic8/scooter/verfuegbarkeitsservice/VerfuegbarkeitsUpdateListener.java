@@ -14,17 +14,17 @@ public class VerfuegbarkeitsUpdateListener {
     private static final Logger log = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
 
     @Autowired
-    ScooterService scooterService;
+    VerfuegbarkeitsService scooterService;
 
-    @KafkaListener(topics = "scooter.buchung", groupId = "verfuegbarkeits-service")
+    @KafkaListener(topics = "scooter.ausleihe", groupId = "verfuegbarkeits-service")
     public void listener(String scooterId){
-        log.info("Scooter mit ID: " + scooterId + " wurde ausgeliehen." );
-        scooterService.ausgeliehen(scooterId);
+        log.info("Scooter: " + scooterId + " wurde ausgeliehen." );
+        scooterService.ausleihen(scooterId);
     }
 
     @KafkaListener(topics = "scooter.rueckgabe", groupId = "verfuegbarkeits-service")
     public void rueckgabeListener(String scooterId){
-        log.info("Scooter mit ID: " + scooterId + " wurde zurückgegeben." );
+        log.info("Scooter: " + scooterId + " wurde zurückgegeben." );
         scooterService.zurueckgegeben(scooterId);
     }
 }

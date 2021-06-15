@@ -14,10 +14,10 @@ import springfox.documentation.swagger.web.UiConfigurationBuilder;
 import java.time.LocalDate;
 
 @SpringBootApplication
-public class VerfuegbarkeitsServiceApplication {
+public class VerfuegbarkeitsApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(VerfuegbarkeitsServiceApplication.class, args);
+        SpringApplication.run(VerfuegbarkeitsApplication.class, args);
     }
 
     @Bean

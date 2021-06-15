@@ -7,15 +7,24 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Random;
+
+import static org.springframework.http.ResponseEntity.ok;
+
 @RestController
-public class VerfuegbarkeitsController {
+public class VerfuegbarkeitsAPI {
 
     @Autowired
-    ScooterService scooterService;
+    VerfuegbarkeitsService vService;
 
     @GetMapping("/scooter/{id}/verfuegbarkeit")
     public ResponseEntity<Verfuegbarkeit> isVerfuegbar(@PathVariable String id){
-        return ResponseEntity.ok(scooterService.getScooterVerfuegbar(id));
+
+        int i = new Random().nextInt(3);
+        if (i == 2)
+            throw new RuntimeException("Doofe Katastrophe!");
+
+        return ok(vService.pruefe(id));
     }
 
 }

@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: verfuegbarkeits-service
+  kafka:
+    bootstrap-servers: localhost:9092
+  cloud:
+    consul:
+      discovery:
+        instanceId: ${spring.application.name}:${random.value}
+
+server:
+  port: 8081
+
+management:
+  endpoint:
+    health:
+      show-details: always
+
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+    prometheus:
+      enabled: true
+
+opentracing:
+  jaeger:
+    service-name: verfuegbarkeitsservice
+    enabled: true
+    udp-sender:
+      host: localhost
+
