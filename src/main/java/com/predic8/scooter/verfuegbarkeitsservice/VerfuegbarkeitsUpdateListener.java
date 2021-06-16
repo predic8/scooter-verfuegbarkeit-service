@@ -16,13 +16,13 @@ public class VerfuegbarkeitsUpdateListener {
     @Autowired
     VerfuegbarkeitsService scooterService;
 
-    @KafkaListener(topics = "scooter.ausleihe", groupId = "verfuegbarkeits-service")
+    @KafkaListener(topics = "scooter.ausleihe")
     public void listener(String scooterId){
         log.info("Scooter: " + scooterId + " wurde ausgeliehen." );
         scooterService.ausleihen(scooterId);
     }
 
-    @KafkaListener(topics = "scooter.rueckgabe", groupId = "verfuegbarkeits-service")
+    @KafkaListener(topics = "scooter.rueckgabe")
     public void rueckgabeListener(String scooterId){
         log.info("Scooter: " + scooterId + " wurde zurückgegeben." );
         scooterService.zurueckgegeben(scooterId);

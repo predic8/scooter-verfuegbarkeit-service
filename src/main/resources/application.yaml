@@ -3,13 +3,11 @@ spring:
     name: verfuegbarkeits-service
   kafka:
     bootstrap-servers: localhost:9092
-  cloud:
-    consul:
-      discovery:
-        instanceId: ${spring.application.name}:${random.value}
+    consumer:
+      group-id: verfuegbarkeit-service-${instance}
 
 server:
-  port: 8081
+  port: 0
 
 management:
   endpoint:
