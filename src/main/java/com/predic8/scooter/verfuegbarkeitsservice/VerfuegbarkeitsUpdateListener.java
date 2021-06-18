@@ -23,14 +23,14 @@ public class VerfuegbarkeitsUpdateListener {
     @Autowired
     VerfuegbarkeitsService scooterService;
 
-    @KafkaListener(topics = "scooter.ausleihe", groupId = "verfuegbarkeits-service")
+    @KafkaListener(topics = "scooter.ausleihe")
     public void listener(String verleih) throws JsonProcessingException {
         VerleihDTO verleihDTO = om.readValue(verleih, VerleihDTO.class);
         log.info("Scooter: " + verleihDTO.getScooterId() + " wurde ausgeliehen.");
         scooterService.ausleihen(verleihDTO.getScooterId());
     }
 
-    @KafkaListener(topics = "scooter.rueckgabe", groupId = "verfuegbarkeits-service")
+    @KafkaListener(topics = "scooter.rueckgabe")
     public void rueckgabeListener(String rueckgabe) throws JsonProcessingException {
         RueckgabeDTO rueckgabeDTO = om.readValue(rueckgabe, RueckgabeDTO.class);
         log.info("Scooter " + rueckgabeDTO.getScooterId() + " wurde zurückgegeben.");
