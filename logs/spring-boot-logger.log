@@ -1,0 +1,348 @@
+2021-06-18 00:39:23,853 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator [kafka-coordinator-heartbeat-thread | verfuegbarkeit-service-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Group coordinator localhost:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response.isDisconnected: false. Rediscovery will be attempted.
+2021-06-18 00:39:23,854 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator [kafka-coordinator-heartbeat-thread | verfuegbarkeit-service-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Group coordinator localhost:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response.isDisconnected: false. Rediscovery will be attempted.
+2021-06-18 00:39:23,846 INFO org.apache.kafka.clients.FetchSessionHandler [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Error sending fetch request (sessionId=979560567, epoch=36) to node 0:
+org.apache.kafka.common.errors.DisconnectException: null
+2021-06-18 00:39:23,853 INFO org.apache.kafka.clients.FetchSessionHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Error sending fetch request (sessionId=312601330, epoch=36) to node 0:
+org.apache.kafka.common.errors.DisconnectException: null
+2021-06-18 00:39:23,950 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$FindCoordinatorResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Discovered group coordinator localhost:9092 (id: 2147483647 rack: null)
+2021-06-18 00:39:23,950 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$FindCoordinatorResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Discovered group coordinator localhost:9092 (id: 2147483647 rack: null)
+2021-06-18 07:15:11,047 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator [kafka-coordinator-heartbeat-thread | verfuegbarkeit-service-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Group coordinator localhost:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response.isDisconnected: false. Rediscovery will be attempted.
+2021-06-18 07:15:11,047 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator [kafka-coordinator-heartbeat-thread | verfuegbarkeit-service-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Group coordinator localhost:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response.isDisconnected: false. Rediscovery will be attempted.
+2021-06-18 07:15:11,053 INFO org.apache.kafka.clients.FetchSessionHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Error sending fetch request (sessionId=2070003646, epoch=10) to node 0:
+org.apache.kafka.common.errors.DisconnectException: null
+2021-06-18 07:15:11,053 INFO org.apache.kafka.clients.FetchSessionHandler [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Error sending fetch request (sessionId=305302824, epoch=10) to node 0:
+org.apache.kafka.common.errors.DisconnectException: null
+2021-06-18 07:15:11,533 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$FindCoordinatorResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Discovered group coordinator localhost:9092 (id: 2147483647 rack: null)
+2021-06-18 07:15:14,008 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$FindCoordinatorResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Discovered group coordinator localhost:9092 (id: 2147483647 rack: null)
+2021-06-18 07:15:14,009 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$FindCoordinatorResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Discovered group coordinator localhost:9092 (id: 2147483647 rack: null)
+2021-06-18 07:15:14,017 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$FindCoordinatorResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Discovered group coordinator localhost:9092 (id: 2147483647 rack: null)
+2021-06-18 07:15:14,018 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$FindCoordinatorResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Discovered group coordinator localhost:9092 (id: 2147483647 rack: null)
+2021-06-18 07:15:14,018 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$HeartbeatResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Attempt to heartbeat with Generation{generationId=3, memberId='consumer-verfuegbarkeit-service-1-2-046a1aeb-dddb-43d2-8966-c14bf0d16e30', protocol='range'} and group instance id Optional.empty failed due to UNKNOWN_MEMBER_ID, resetting generation
+2021-06-18 07:15:14,020 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$HeartbeatResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Attempt to heartbeat with Generation{generationId=3, memberId='consumer-verfuegbarkeit-service-1-1-3335c239-ceac-45de-aaae-09bd385d50f7', protocol='range'} and group instance id Optional.empty failed due to UNKNOWN_MEMBER_ID, resetting generation
+2021-06-18 07:15:14,020 INFO org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Giving away all assigned partitions as lost since generation has been reset,indicating that consumer is no longer part of the group
+2021-06-18 07:15:14,020 INFO org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Giving away all assigned partitions as lost since generation has been reset,indicating that consumer is no longer part of the group
+2021-06-18 07:15:14,021 INFO org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Lost previously assigned partitions scooter.rueckgabe-0
+2021-06-18 07:15:14,021 INFO org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Lost previously assigned partitions scooter.ausleihe-0
+2021-06-18 07:15:14,026 INFO org.springframework.core.log.LogAccessor [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] verfuegbarkeit-service-1: partitions lost: [scooter.ausleihe-0]
+2021-06-18 07:15:14,028 INFO org.springframework.core.log.LogAccessor [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] verfuegbarkeit-service-1: partitions revoked: [scooter.ausleihe-0]
+2021-06-18 07:15:14,036 INFO org.springframework.core.log.LogAccessor [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] verfuegbarkeit-service-1: partitions lost: [scooter.rueckgabe-0]
+2021-06-18 07:15:14,036 INFO org.springframework.core.log.LogAccessor [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] verfuegbarkeit-service-1: partitions revoked: [scooter.rueckgabe-0]
+2021-06-18 07:15:14,036 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] (Re-)joining group
+2021-06-18 07:15:14,036 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] (Re-)joining group
+2021-06-18 07:15:14,043 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] (Re-)joining group
+2021-06-18 07:15:14,044 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] (Re-)joining group
+2021-06-18 07:15:14,053 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$JoinGroupResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Successfully joined group with generation Generation{generationId=5, memberId='consumer-verfuegbarkeit-service-1-1-42dfdc16-1ee1-464c-8605-5141b4b9b308', protocol='range'}
+2021-06-18 07:15:14,053 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$JoinGroupResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Successfully joined group with generation Generation{generationId=5, memberId='consumer-verfuegbarkeit-service-1-2-0a2fd078-a48c-414c-b278-a4d03d177fad', protocol='range'}
+2021-06-18 07:15:14,520 INFO org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Finished assignment for group at generation 5: {consumer-verfuegbarkeit-service-1-2-0a2fd078-a48c-414c-b278-a4d03d177fad=Assignment(partitions=[scooter.rueckgabe-0]), consumer-verfuegbarkeit-service-1-1-42dfdc16-1ee1-464c-8605-5141b4b9b308=Assignment(partitions=[scooter.ausleihe-0])}
+2021-06-18 07:15:14,543 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$SyncGroupResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Successfully synced group in generation Generation{generationId=5, memberId='consumer-verfuegbarkeit-service-1-2-0a2fd078-a48c-414c-b278-a4d03d177fad', protocol='range'}
+2021-06-18 07:15:14,543 INFO org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Notifying assignor about the new Assignment(partitions=[scooter.rueckgabe-0])
+2021-06-18 07:15:14,543 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$SyncGroupResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Successfully synced group in generation Generation{generationId=5, memberId='consumer-verfuegbarkeit-service-1-1-42dfdc16-1ee1-464c-8605-5141b4b9b308', protocol='range'}
+2021-06-18 07:15:14,544 INFO org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Notifying assignor about the new Assignment(partitions=[scooter.ausleihe-0])
+2021-06-18 07:15:14,544 INFO org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Adding newly assigned partitions: scooter.rueckgabe-0
+2021-06-18 07:15:14,544 INFO org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Adding newly assigned partitions: scooter.ausleihe-0
+2021-06-18 07:15:14,548 INFO org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Setting offset for partition scooter.ausleihe-0 to the committed offset FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 0 rack: null)], epoch=0}}
+2021-06-18 07:15:14,548 INFO org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Setting offset for partition scooter.rueckgabe-0 to the committed offset FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 0 rack: null)], epoch=0}}
+2021-06-18 07:15:14,550 INFO org.springframework.core.log.LogAccessor [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] verfuegbarkeit-service-1: partitions assigned: [scooter.ausleihe-0]
+2021-06-18 07:15:14,550 INFO org.springframework.core.log.LogAccessor [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] verfuegbarkeit-service-1: partitions assigned: [scooter.rueckgabe-0]
+2021-06-18 07:19:26,570 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator [kafka-coordinator-heartbeat-thread | verfuegbarkeit-service-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Group coordinator localhost:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response.isDisconnected: false. Rediscovery will be attempted.
+2021-06-18 07:19:26,570 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator [kafka-coordinator-heartbeat-thread | verfuegbarkeit-service-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Group coordinator localhost:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response.isDisconnected: false. Rediscovery will be attempted.
+2021-06-18 07:19:26,572 INFO org.apache.kafka.clients.FetchSessionHandler [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Error sending fetch request (sessionId=1723863801, epoch=19) to node 0:
+org.apache.kafka.common.errors.DisconnectException: null
+2021-06-18 07:19:26,573 INFO org.apache.kafka.clients.FetchSessionHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Error sending fetch request (sessionId=1704461526, epoch=19) to node 0:
+org.apache.kafka.common.errors.DisconnectException: null
+2021-06-18 07:19:26,637 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$FindCoordinatorResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Discovered group coordinator localhost:9092 (id: 2147483647 rack: null)
+2021-06-18 07:19:26,638 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$FindCoordinatorResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Discovered group coordinator localhost:9092 (id: 2147483647 rack: null)
+2021-06-18 07:19:26,658 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$FindCoordinatorResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Discovered group coordinator localhost:9092 (id: 2147483647 rack: null)
+2021-06-18 07:19:26,658 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$FindCoordinatorResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Discovered group coordinator localhost:9092 (id: 2147483647 rack: null)
+2021-06-18 07:19:26,658 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$FindCoordinatorResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Discovered group coordinator localhost:9092 (id: 2147483647 rack: null)
+2021-06-18 08:15:28,748 INFO org.apache.kafka.clients.FetchSessionHandler [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Error sending fetch request (sessionId=824911925, epoch=17) to node 0:
+org.apache.kafka.common.errors.DisconnectException: null
+2021-06-18 08:15:28,748 INFO org.apache.kafka.clients.FetchSessionHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Error sending fetch request (sessionId=1980545775, epoch=17) to node 0:
+org.apache.kafka.common.errors.DisconnectException: null
+2021-06-18 08:15:28,749 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator [kafka-coordinator-heartbeat-thread | verfuegbarkeit-service-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Group coordinator localhost:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response.isDisconnected: false. Rediscovery will be attempted.
+2021-06-18 08:15:28,749 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator [kafka-coordinator-heartbeat-thread | verfuegbarkeit-service-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Group coordinator localhost:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response.isDisconnected: false. Rediscovery will be attempted.
+2021-06-18 08:15:29,135 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$FindCoordinatorResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Discovered group coordinator localhost:9092 (id: 2147483647 rack: null)
+2021-06-18 08:15:29,137 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$FindCoordinatorResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Discovered group coordinator localhost:9092 (id: 2147483647 rack: null)
+2021-06-18 08:15:29,143 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$FindCoordinatorResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Discovered group coordinator localhost:9092 (id: 2147483647 rack: null)
+2021-06-18 08:15:29,143 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$FindCoordinatorResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Discovered group coordinator localhost:9092 (id: 2147483647 rack: null)
+2021-06-18 08:27:00,861 INFO org.apache.kafka.clients.FetchSessionHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Error sending fetch request (sessionId=1930547469, epoch=27) to node 0:
+org.apache.kafka.common.errors.DisconnectException: null
+2021-06-18 08:27:00,862 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator [kafka-coordinator-heartbeat-thread | verfuegbarkeit-service-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Group coordinator localhost:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response.isDisconnected: false. Rediscovery will be attempted.
+2021-06-18 08:27:01,221 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator [kafka-coordinator-heartbeat-thread | verfuegbarkeit-service-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Group coordinator localhost:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response.isDisconnected: false. Rediscovery will be attempted.
+2021-06-18 08:27:00,861 INFO org.apache.kafka.clients.FetchSessionHandler [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Error sending fetch request (sessionId=1304580502, epoch=27) to node 0:
+org.apache.kafka.common.errors.DisconnectException: null
+2021-06-18 08:27:01,227 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$FindCoordinatorResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Discovered group coordinator localhost:9092 (id: 2147483647 rack: null)
+2021-06-18 08:27:01,228 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$FindCoordinatorResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Discovered group coordinator localhost:9092 (id: 2147483647 rack: null)
+2021-06-18 08:27:01,228 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Group coordinator localhost:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: coordinator unavailable.isDisconnected: false. Rediscovery will be attempted.
+2021-06-18 08:27:01,230 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$FindCoordinatorResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Discovered group coordinator localhost:9092 (id: 2147483647 rack: null)
+2021-06-18 08:27:01,234 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$FindCoordinatorResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Discovered group coordinator localhost:9092 (id: 2147483647 rack: null)
+2021-06-18 08:27:01,332 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$FindCoordinatorResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Discovered group coordinator localhost:9092 (id: 2147483647 rack: null)
+2021-06-18 08:28:12,605 INFO org.apache.kafka.clients.FetchSessionHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Error sending fetch request (sessionId=93034659, epoch=20) to node 0:
+org.apache.kafka.common.errors.DisconnectException: null
+2021-06-18 08:28:12,607 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator [kafka-coordinator-heartbeat-thread | verfuegbarkeit-service-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Group coordinator localhost:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response.isDisconnected: false. Rediscovery will be attempted.
+2021-06-18 08:28:12,608 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator [kafka-coordinator-heartbeat-thread | verfuegbarkeit-service-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Group coordinator localhost:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response.isDisconnected: false. Rediscovery will be attempted.
+2021-06-18 08:28:12,668 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$FindCoordinatorResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Discovered group coordinator localhost:9092 (id: 2147483647 rack: null)
+2021-06-18 08:28:12,989 INFO org.apache.kafka.clients.FetchSessionHandler [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Error sending fetch request (sessionId=106244501, epoch=20) to node 0:
+org.apache.kafka.common.errors.DisconnectException: null
+2021-06-18 08:28:12,992 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$FindCoordinatorResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Discovered group coordinator localhost:9092 (id: 2147483647 rack: null)
+2021-06-18 08:28:12,995 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$FindCoordinatorResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Discovered group coordinator localhost:9092 (id: 2147483647 rack: null)
+2021-06-18 10:46:43,868 INFO org.apache.kafka.clients.FetchSessionHandler [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Error sending fetch request (sessionId=1419433036, epoch=15704) to node 0:
+org.apache.kafka.common.errors.DisconnectException: null
+2021-06-18 10:46:43,869 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator [kafka-coordinator-heartbeat-thread | verfuegbarkeit-service-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Group coordinator localhost:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response.isDisconnected: false. Rediscovery will be attempted.
+2021-06-18 10:46:43,870 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator [kafka-coordinator-heartbeat-thread | verfuegbarkeit-service-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Group coordinator localhost:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response.isDisconnected: false. Rediscovery will be attempted.
+2021-06-18 10:46:43,869 INFO org.apache.kafka.clients.FetchSessionHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Error sending fetch request (sessionId=1484480920, epoch=15704) to node 0:
+org.apache.kafka.common.errors.DisconnectException: null
+2021-06-18 10:46:43,919 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$FindCoordinatorResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Discovered group coordinator localhost:9092 (id: 2147483647 rack: null)
+2021-06-18 10:46:43,920 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$FindCoordinatorResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Discovered group coordinator localhost:9092 (id: 2147483647 rack: null)
+2021-06-18 10:46:43,979 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$FindCoordinatorResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Discovered group coordinator localhost:9092 (id: 2147483647 rack: null)
+2021-06-18 13:17:41,747 INFO org.apache.kafka.clients.FetchSessionHandler [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Error sending fetch request (sessionId=1302276557, epoch=15171) to node 0:
+org.apache.kafka.common.errors.DisconnectException: null
+2021-06-18 13:17:41,748 INFO org.apache.kafka.clients.FetchSessionHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Error sending fetch request (sessionId=702685292, epoch=15171) to node 0:
+org.apache.kafka.common.errors.DisconnectException: null
+2021-06-18 13:17:41,749 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator [kafka-coordinator-heartbeat-thread | verfuegbarkeit-service-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Group coordinator localhost:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response.isDisconnected: false. Rediscovery will be attempted.
+2021-06-18 13:17:41,749 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator [kafka-coordinator-heartbeat-thread | verfuegbarkeit-service-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Group coordinator localhost:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response.isDisconnected: false. Rediscovery will be attempted.
+2021-06-18 13:17:42,114 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$FindCoordinatorResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Discovered group coordinator localhost:9092 (id: 2147483647 rack: null)
+2021-06-18 13:17:42,114 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$FindCoordinatorResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Discovered group coordinator localhost:9092 (id: 2147483647 rack: null)
+2021-06-18 13:17:42,114 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$FindCoordinatorResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Discovered group coordinator localhost:9092 (id: 2147483647 rack: null)
+2021-06-18 13:17:42,115 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$FindCoordinatorResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Discovered group coordinator localhost:9092 (id: 2147483647 rack: null)
+2021-06-18 13:17:42,115 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Group coordinator localhost:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: coordinator unavailable.isDisconnected: false. Rediscovery will be attempted.
+2021-06-18 13:17:42,115 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Group coordinator localhost:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: coordinator unavailable.isDisconnected: false. Rediscovery will be attempted.
+2021-06-18 13:17:42,219 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$FindCoordinatorResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Discovered group coordinator localhost:9092 (id: 2147483647 rack: null)
+2021-06-18 13:17:42,219 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$FindCoordinatorResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Discovered group coordinator localhost:9092 (id: 2147483647 rack: null)
+2021-06-18 13:18:29,127 INFO org.apache.kafka.clients.FetchSessionHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Error sending fetch request (sessionId=1343690462, epoch=18) to node 0:
+org.apache.kafka.common.errors.DisconnectException: null
+2021-06-18 13:18:29,127 INFO org.apache.kafka.clients.FetchSessionHandler [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Error sending fetch request (sessionId=647847386, epoch=18) to node 0:
+org.apache.kafka.common.errors.DisconnectException: null
+2021-06-18 13:18:29,129 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator [kafka-coordinator-heartbeat-thread | verfuegbarkeit-service-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Group coordinator localhost:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response.isDisconnected: false. Rediscovery will be attempted.
+2021-06-18 13:18:29,129 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator [kafka-coordinator-heartbeat-thread | verfuegbarkeit-service-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Group coordinator localhost:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response.isDisconnected: false. Rediscovery will be attempted.
+2021-06-18 13:18:29,212 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$FindCoordinatorResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Discovered group coordinator localhost:9092 (id: 2147483647 rack: null)
+2021-06-18 13:18:29,212 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$FindCoordinatorResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Discovered group coordinator localhost:9092 (id: 2147483647 rack: null)
+2021-06-18 14:36:13,054 INFO org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Revoke previously assigned partitions scooter.ausleihe-0
+2021-06-18 14:36:13,054 INFO org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Revoke previously assigned partitions scooter.rueckgabe-0
+2021-06-18 14:36:13,055 INFO org.springframework.core.log.LogAccessor [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] verfuegbarkeit-service-1: partitions revoked: [scooter.ausleihe-0]
+2021-06-18 14:36:13,055 INFO org.springframework.core.log.LogAccessor [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] verfuegbarkeit-service-1: partitions revoked: [scooter.rueckgabe-0]
+2021-06-18 14:36:13,055 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Member consumer-verfuegbarkeit-service-1-2-0a2fd078-a48c-414c-b278-a4d03d177fad sending LeaveGroup request to coordinator localhost:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics
+2021-06-18 14:36:13,055 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Member consumer-verfuegbarkeit-service-1-1-42dfdc16-1ee1-464c-8605-5141b4b9b308 sending LeaveGroup request to coordinator localhost:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics
+2021-06-18 14:36:13,059 INFO org.apache.kafka.clients.consumer.KafkaConsumer [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Unsubscribed all topics or patterns and assigned partitions
+2021-06-18 14:36:13,059 INFO org.apache.kafka.clients.consumer.KafkaConsumer [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Unsubscribed all topics or patterns and assigned partitions
+2021-06-18 14:36:13,067 INFO org.apache.kafka.common.metrics.Metrics [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] Metrics scheduler closed
+2021-06-18 14:36:13,067 INFO org.apache.kafka.common.metrics.Metrics [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] Metrics scheduler closed
+2021-06-18 14:36:13,068 INFO org.apache.kafka.common.metrics.Metrics [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2021-06-18 14:36:13,068 INFO org.apache.kafka.common.metrics.Metrics [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2021-06-18 14:36:13,068 INFO org.apache.kafka.common.metrics.Metrics [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] Metrics reporters closed
+2021-06-18 14:36:13,068 INFO org.apache.kafka.common.metrics.Metrics [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] Metrics reporters closed
+2021-06-18 14:36:13,074 INFO org.apache.kafka.common.utils.AppInfoParser [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] App info kafka.consumer for consumer-verfuegbarkeit-service-1-2 unregistered
+2021-06-18 14:36:13,075 INFO org.apache.kafka.common.utils.AppInfoParser [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] App info kafka.consumer for consumer-verfuegbarkeit-service-1-1 unregistered
+2021-06-18 14:36:13,075 INFO org.springframework.core.log.LogAccessor [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] verfuegbarkeit-service-1: Consumer stopped
+2021-06-18 14:36:13,075 INFO org.springframework.core.log.LogAccessor [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] verfuegbarkeit-service-1: Consumer stopped
+2021-06-18 14:36:13,090 INFO org.springframework.cloud.consul.serviceregistry.ConsulServiceRegistry [SpringApplicationShutdownHook] Deregistering service with consul: verfuegbarkeits-service-0
+2021-06-18 14:36:15,903 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-06-18 14:36:15,912 INFO org.springframework.boot.StartupInfoLogger [main] Starting VerfuegbarkeitsApplication using Java 13.0.5.1 on Thomass-MacBook-Pro-3.local with PID 31018 (/Users/thomas/kurs/scooter/scooter-verfuegbarkeit-service/target/classes started by thomas in /Users/thomas/kurs/scooter/scooter-verfuegbarkeit-service)
+2021-06-18 14:36:15,913 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-06-18 14:36:17,041 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=e2f6f19d-96c7-3891-a1c0-bbd467976618
+2021-06-18 14:36:17,273 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 0 (http)
+2021-06-18 14:36:17,282 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-auto-1"]
+2021-06-18 14:36:17,283 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-06-18 14:36:17,283 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-18 14:36:17,369 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-06-18 14:36:17,370 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1422 ms
+2021-06-18 14:36:17,876 INFO io.opentracing.contrib.spring.web.starter.ServerTracingAutoConfiguration [main] Creating FilterRegistrationBean bean with TracingFilter mapped to [], skip pattern is "/api-docs.*|/swagger.*|.*\.png|.*\.css|.*\.js|.*\.html|/favicon.ico|/hystrix.stream|/actuator/(beans|beans/.*|caches|caches/.*|health|health/.*|info|info/.*|conditions|conditions/.*|configprops|configprops/.*|env|env/.*|loggers|loggers/.*|heapdump|heapdump/.*|threaddump|threaddump/.*|metrics|metrics/.*|scheduledtasks|scheduledtasks/.*|mappings|mappings/.*|refresh|refresh/.*|consul|consul/.*|features|features/.*|serviceregistry|serviceregistry/.*)"
+2021-06-18 14:36:18,028 INFO io.opentracing.contrib.spring.web.starter.ServerTracingAutoConfiguration [main] Creating WebMvcConfigurer bean with class io.opentracing.contrib.spring.web.interceptor.TracingHandlerInterceptor
+2021-06-18 14:36:18,078 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 17 endpoint(s) beneath base path '/actuator'
+2021-06-18 14:36:18,464 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-06-18 14:36:18,567 INFO org.apache.kafka.common.config.AbstractConfig [main] ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-verfuegbarkeit-service-1-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = verfuegbarkeit-service-1
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2021-06-18 14:36:18,620 INFO org.apache.kafka.common.utils.AppInfoParser$AppInfo [main] Kafka version: 2.7.1
+2021-06-18 14:36:18,621 INFO org.apache.kafka.common.utils.AppInfoParser$AppInfo [main] Kafka commitId: 61dbce85d0d41457
+2021-06-18 14:36:18,621 INFO org.apache.kafka.common.utils.AppInfoParser$AppInfo [main] Kafka startTimeMs: 1624019778619
+2021-06-18 14:36:18,635 INFO org.apache.kafka.clients.consumer.KafkaConsumer [main] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Subscribed to topic(s): scooter.ausleihe
+2021-06-18 14:36:18,640 INFO org.apache.kafka.common.config.AbstractConfig [main] ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-verfuegbarkeit-service-1-2
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = verfuegbarkeit-service-1
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2021-06-18 14:36:18,646 INFO org.apache.kafka.common.utils.AppInfoParser$AppInfo [main] Kafka version: 2.7.1
+2021-06-18 14:36:18,647 INFO org.apache.kafka.common.utils.AppInfoParser$AppInfo [main] Kafka commitId: 61dbce85d0d41457
+2021-06-18 14:36:18,647 INFO org.apache.kafka.common.utils.AppInfoParser$AppInfo [main] Kafka startTimeMs: 1624019778646
+2021-06-18 14:36:18,653 INFO org.apache.kafka.clients.consumer.KafkaConsumer [main] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Subscribed to topic(s): scooter.rueckgabe
+2021-06-18 14:36:18,655 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-auto-1"]
+2021-06-18 14:36:18,665 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 51227 (http) with context path ''
+2021-06-18 14:36:18,668 INFO org.springframework.cloud.consul.serviceregistry.ConsulServiceRegistry [main] Registering service with consul: NewService{id='verfuegbarkeits-service-0', name='verfuegbarkeits-service', tags=[], address='192.168.2.156', meta={secure=false}, port=51227, enableTagOverride=null, check=Check{script='null', dockerContainerID='null', shell='null', interval='10s', ttl='null', http='http://192.168.2.156:51227/actuator/health', method='null', header={}, tcp='null', timeout='null', deregisterCriticalServiceAfter='null', tlsSkipVerify=null, status='null', grpc='null', grpcUseTLS=null}, checks=null}
+2021-06-18 14:36:18,915 INFO org.apache.kafka.clients.Metadata [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Cluster ID: IigcIfbwQYu-JNdz03Fnhw
+2021-06-18 14:36:18,915 INFO org.apache.kafka.clients.Metadata [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Cluster ID: IigcIfbwQYu-JNdz03Fnhw
+2021-06-18 14:36:18,917 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$FindCoordinatorResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Discovered group coordinator localhost:9092 (id: 2147483647 rack: null)
+2021-06-18 14:36:18,917 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$FindCoordinatorResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Discovered group coordinator localhost:9092 (id: 2147483647 rack: null)
+2021-06-18 14:36:18,919 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] (Re-)joining group
+2021-06-18 14:36:18,919 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] (Re-)joining group
+2021-06-18 14:36:18,936 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] (Re-)joining group
+2021-06-18 14:36:18,936 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] (Re-)joining group
+2021-06-18 14:36:18,940 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$JoinGroupResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Successfully joined group with generation Generation{generationId=7, memberId='consumer-verfuegbarkeit-service-1-1-ac4f61bd-1477-4c69-8eea-7bacde46a80f', protocol='range'}
+2021-06-18 14:36:18,940 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$JoinGroupResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Successfully joined group with generation Generation{generationId=7, memberId='consumer-verfuegbarkeit-service-1-2-2ae3422b-501a-4e82-b034-b94bac071fe2', protocol='range'}
+2021-06-18 14:36:18,947 INFO org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Finished assignment for group at generation 7: {consumer-verfuegbarkeit-service-1-1-ac4f61bd-1477-4c69-8eea-7bacde46a80f=Assignment(partitions=[scooter.ausleihe-0]), consumer-verfuegbarkeit-service-1-2-2ae3422b-501a-4e82-b034-b94bac071fe2=Assignment(partitions=[scooter.rueckgabe-0])}
+2021-06-18 14:36:18,952 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$SyncGroupResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Successfully synced group in generation Generation{generationId=7, memberId='consumer-verfuegbarkeit-service-1-2-2ae3422b-501a-4e82-b034-b94bac071fe2', protocol='range'}
+2021-06-18 14:36:18,952 INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator$SyncGroupResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Successfully synced group in generation Generation{generationId=7, memberId='consumer-verfuegbarkeit-service-1-1-ac4f61bd-1477-4c69-8eea-7bacde46a80f', protocol='range'}
+2021-06-18 14:36:18,953 INFO org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Notifying assignor about the new Assignment(partitions=[scooter.rueckgabe-0])
+2021-06-18 14:36:18,953 INFO org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Notifying assignor about the new Assignment(partitions=[scooter.ausleihe-0])
+2021-06-18 14:36:18,955 INFO org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Adding newly assigned partitions: scooter.rueckgabe-0
+2021-06-18 14:36:18,955 INFO org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Adding newly assigned partitions: scooter.ausleihe-0
+2021-06-18 14:36:18,969 INFO org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Setting offset for partition scooter.rueckgabe-0 to the committed offset FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 0 rack: null)], epoch=0}}
+2021-06-18 14:36:18,969 INFO org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Setting offset for partition scooter.ausleihe-0 to the committed offset FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 0 rack: null)], epoch=0}}
+2021-06-18 14:36:18,970 INFO org.springframework.core.log.LogAccessor [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] verfuegbarkeit-service-1: partitions assigned: [scooter.rueckgabe-0]
+2021-06-18 14:36:18,970 INFO org.springframework.core.log.LogAccessor [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] verfuegbarkeit-service-1: partitions assigned: [scooter.ausleihe-0]
+2021-06-18 14:36:19,046 INFO org.springframework.boot.StartupInfoLogger [main] Started VerfuegbarkeitsApplication in 3.529 seconds (JVM running for 4.085)
+2021-06-18 14:36:21,122 INFO org.apache.juli.logging.DirectJDKLog [http-nio-auto-1-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-18 14:36:21,123 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-auto-1-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-06-18 14:36:21,124 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-auto-1-exec-1] Completed initialization in 1 ms
+2021-06-18 14:36:21,162 INFO io.jaegertracing.internal.reporters.LoggingReporter [http-nio-auto-1-exec-1] Span reported: 1ef8468b0f1494b9:82eb52b946f278f7:1ded6d7413ed8e8e:1 - isVerfuegbar
+2021-06-18 14:36:21,577 INFO com.predic8.scooter.verfuegbarkeitsservice.VerfuegbarkeitsUpdateListener [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] Scooter: 22321 wurde ausgeliehen.
