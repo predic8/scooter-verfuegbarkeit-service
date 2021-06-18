@@ -1,5 +1,9 @@
 package com.predic8.scooter.verfuegbarkeitsservice;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.predic8.scooter.verfuegbarkeitsservice.model.RueckgabeDTO;
+import com.predic8.scooter.verfuegbarkeitsservice.model.VerleihDTO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,17 +18,22 @@ public class VerfuegbarkeitsUpdateListener {
     private static final Logger log = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
 
     @Autowired
+    ObjectMapper om;
+
+    @Autowired
     VerfuegbarkeitsService scooterService;
 
     @KafkaListener(topics = "scooter.ausleihe", groupId = "verfuegbarkeits-service")
-    public void listener(String scooterId){
-        log.info("Scooter: " + scooterId + " wurde ausgeliehen." );
-        scooterService.ausleihen(scooterId);
+    public void listener(String verleih) throws JsonProcessingException {
+        VerleihDTO verleihDTO = om.readValue(verleih, VerleihDTO.class);
+        log.info("Scooter: " + verleihDTO.getScooterId() + " wurde ausgeliehen.");
+        scooterService.ausleihen(verleihDTO.getScooterId());
     }
 
     @KafkaListener(topics = "scooter.rueckgabe", groupId = "verfuegbarkeits-service")
-    public void rueckgabeListener(String scooterId){
-        log.info("Scooter: " + scooterId + " wurde zurückgegeben." );
-        scooterService.zurueckgegeben(scooterId);
+    public void rueckgabeListener(String rueckgabe) throws JsonProcessingException {
+        RueckgabeDTO rueckgabeDTO = om.readValue(rueckgabe, RueckgabeDTO.class);
+        log.info("Scooter " + rueckgabeDTO.getScooterId() + " wurde zurückgegeben.");
+        scooterService.zurueckgegeben(rueckgabeDTO.getScooterId());
     }
 }
