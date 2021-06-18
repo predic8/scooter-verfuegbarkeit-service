@@ -1,9 +1,10 @@
-package com.predic8.scooter.verfuegbarkeitsservice.model;
+package com.predic8.scooter.model;
 
 import java.time.LocalDateTime;
 
 public class RueckgabeDTO {
 
+    String fahrtId;
     String scooterId;
     LocalDateTime rueckgabe;
 
@@ -11,8 +12,9 @@ public class RueckgabeDTO {
         rueckgabe = LocalDateTime.now();
     }
 
-    public RueckgabeDTO(String scooterId){
+    public RueckgabeDTO(String scooterId, String fahrtId){
         this();
+        this.fahrtId = fahrtId;
         this.scooterId = scooterId;
     }
 
@@ -30,5 +32,13 @@ public class RueckgabeDTO {
 
     public void setRueckgabe(LocalDateTime rueckgabe) {
         this.rueckgabe = rueckgabe;
+    }
+
+    public String getFahrtId() {
+        return fahrtId;
+    }
+
+    public void setFahrtId(String fahrtId) {
+        this.fahrtId = fahrtId;
     }
 }

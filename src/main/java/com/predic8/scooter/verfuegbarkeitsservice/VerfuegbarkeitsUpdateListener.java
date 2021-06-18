@@ -2,7 +2,6 @@ package com.predic8.scooter.verfuegbarkeitsservice;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.predic8.scooter.verfuegbarkeitsservice.model.RueckgabeDTO;
 import com.predic8.scooter.verfuegbarkeitsservice.model.VerleihDTO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -32,7 +31,7 @@ public class VerfuegbarkeitsUpdateListener {
 
     @KafkaListener(topics = "scooter.rueckgabe")
     public void rueckgabeListener(String rueckgabe) throws JsonProcessingException {
-        RueckgabeDTO rueckgabeDTO = om.readValue(rueckgabe, RueckgabeDTO.class);
+        com.predic8.scooter.model.RueckgabeDTO rueckgabeDTO = om.readValue(rueckgabe, com.predic8.scooter.model.RueckgabeDTO.class);
         log.info("Scooter " + rueckgabeDTO.getScooterId() + " wurde zurückgegeben.");
         scooterService.zurueckgegeben(rueckgabeDTO.getScooterId());
     }
