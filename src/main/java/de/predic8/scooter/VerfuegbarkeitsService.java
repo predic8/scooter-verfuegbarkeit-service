@@ -1,6 +1,6 @@
-package com.predic8.scooter.verfuegbarkeitsservice;
+package de.predic8.scooter;
 
-import com.predic8.scooter.verfuegbarkeitsservice.model.Verfuegbarkeit;
+import de.predic8.scooter.model.Verfuegbarkeit;
 import org.springframework.stereotype.Service;
 
 import java.util.*;

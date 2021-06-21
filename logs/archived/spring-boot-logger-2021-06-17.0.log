@@ -4874,7 +4874,7 @@
 2021-06-17 15:30:50,357 INFO io.jaegertracing.internal.reporters.LoggingReporter [http-nio-auto-1-exec-10] Span reported: 7a3bc44d562aaa04:128321eb1c90d65d:819ad7f0bcd0d320:1 - isVerfuegbar
 2021-06-17 15:30:50,361 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-auto-1-exec-10] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: Doofe Katastrophe!] with root cause
 java.lang.RuntimeException: Doofe Katastrophe!
-	at com.predic8.scooter.verfuegbarkeitsservice.VerfuegbarkeitsAPI.isVerfuegbar(VerfuegbarkeitsAPI.java:25)
+	at VerfuegbarkeitsAPI.isVerfuegbar(VerfuegbarkeitsAPI.java:25)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -4944,7 +4944,7 @@ java.lang.RuntimeException: Doofe Katastrophe!
 2021-06-17 15:30:52,434 INFO io.jaegertracing.internal.reporters.LoggingReporter [http-nio-auto-1-exec-1] Span reported: 7a3bc44d562aaa04:391877b13739f700:6bc231bb8dbf431f:1 - isVerfuegbar
 2021-06-17 15:30:52,434 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-auto-1-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: Doofe Katastrophe!] with root cause
 java.lang.RuntimeException: Doofe Katastrophe!
-	at com.predic8.scooter.verfuegbarkeitsservice.VerfuegbarkeitsAPI.isVerfuegbar(VerfuegbarkeitsAPI.java:25)
+	at VerfuegbarkeitsAPI.isVerfuegbar(VerfuegbarkeitsAPI.java:25)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -5760,7 +5760,7 @@ java.lang.RuntimeException: Doofe Katastrophe!
 2021-06-17 15:34:09,564 INFO io.jaegertracing.internal.reporters.LoggingReporter [http-nio-auto-1-exec-9] Span reported: df937bdd9a1049fb:5c5cd1de73ee528b:8ea7ef064d5bde6b:1 - isVerfuegbar
 2021-06-17 15:34:09,564 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-auto-1-exec-9] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: Doofe Katastrophe!] with root cause
 java.lang.RuntimeException: Doofe Katastrophe!
-	at com.predic8.scooter.verfuegbarkeitsservice.VerfuegbarkeitsAPI.isVerfuegbar(VerfuegbarkeitsAPI.java:25)
+	at VerfuegbarkeitsAPI.isVerfuegbar(VerfuegbarkeitsAPI.java:25)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -6106,10 +6106,10 @@ org.apache.kafka.common.errors.CoordinatorLoadInProgressException: The coordinat
 2021-06-17 15:34:50,329 INFO org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Setting offset for partition scooter.rueckgabe-0 to the committed offset FetchPosition{offset=1, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 0 rack: null)], epoch=0}}
 2021-06-17 15:34:50,330 INFO org.springframework.core.log.LogAccessor [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] verfuegbarkeit-service-1: partitions assigned: [scooter.ausleihe-0]
 2021-06-17 15:34:50,330 INFO org.springframework.core.log.LogAccessor [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] verfuegbarkeit-service-1: partitions assigned: [scooter.rueckgabe-0]
-2021-06-17 15:34:50,391 INFO com.predic8.scooter.verfuegbarkeitsservice.VerfuegbarkeitsUpdateListener [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] Scooter: 2 wurde ausgeliehen.
+2021-06-17 15:34:50,391 INFO VerfuegbarkeitsUpdateListener [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] Scooter: 2 wurde ausgeliehen.
 2021-06-17 15:35:37,099 INFO io.jaegertracing.internal.reporters.LoggingReporter [http-nio-auto-1-exec-1] Span reported: adbb2bb177d22ef6:ed233a7b24d22f09:aef098e607534af:1 - isVerfuegbar
 2021-06-17 15:35:43,051 INFO io.jaegertracing.internal.reporters.LoggingReporter [http-nio-auto-1-exec-2] Span reported: cacb5b4d8f38a568:b81e5ffaa436738c:2f719afdec891006:1 - isVerfuegbar
-2021-06-17 15:35:43,057 INFO com.predic8.scooter.verfuegbarkeitsservice.VerfuegbarkeitsUpdateListener [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] Scooter: 22 wurde ausgeliehen.
+2021-06-17 15:35:43,057 INFO VerfuegbarkeitsUpdateListener [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] Scooter: 22 wurde ausgeliehen.
 2021-06-17 15:36:41,154 INFO io.jaegertracing.internal.reporters.LoggingReporter [http-nio-auto-1-exec-10] Span reported: 13ebee1115955b8f:71454427618bbe99:d376983cd97038c9:1 - isVerfuegbar
 2021-06-17 15:37:04,646 INFO io.jaegertracing.internal.reporters.LoggingReporter [http-nio-auto-1-exec-4] Span reported: b3b85c0d992051cc:3de4cea4c5854052:a101b8ef4c851e1e:1 - isVerfuegbar
 2021-06-17 15:39:51,174 INFO io.jaegertracing.internal.reporters.LoggingReporter [http-nio-auto-1-exec-2] Span reported: 58aa76fd987b82b4:8eae8a006319d659:b0cb0da5bccbf8fa:1 - isVerfuegbar
@@ -6118,7 +6118,7 @@ org.apache.kafka.common.errors.CoordinatorLoadInProgressException: The coordinat
 2021-06-17 15:50:59,168 INFO io.jaegertracing.internal.reporters.LoggingReporter [http-nio-auto-1-exec-5] Span reported: 991e4d3928f0625:e1ab8f9d434f744c:86daf8b30931398:1 - isVerfuegbar
 2021-06-17 15:50:59,168 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-auto-1-exec-5] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: Doofe Katastrophe!] with root cause
 java.lang.RuntimeException: Doofe Katastrophe!
-	at com.predic8.scooter.verfuegbarkeitsservice.VerfuegbarkeitsAPI.isVerfuegbar(VerfuegbarkeitsAPI.java:25)
+	at VerfuegbarkeitsAPI.isVerfuegbar(VerfuegbarkeitsAPI.java:25)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -6821,11 +6821,11 @@ java.lang.RuntimeException: Doofe Katastrophe!
 2021-06-17 20:54:26,822 INFO org.springframework.core.log.LogAccessor [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] verfuegbarkeit-service-1: partitions assigned: [scooter.rueckgabe-0]
 2021-06-17 20:54:26,822 INFO org.springframework.core.log.LogAccessor [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] verfuegbarkeit-service-1: partitions assigned: [scooter.ausleihe-0]
 2021-06-17 20:56:44,684 INFO io.jaegertracing.internal.reporters.LoggingReporter [http-nio-auto-1-exec-9] Span reported: 675f29d4af212f8c:c6b9312a152a1ff3:72e8f4053b48e6e8:1 - isVerfuegbar
-2021-06-17 20:56:44,705 INFO com.predic8.scooter.verfuegbarkeitsservice.VerfuegbarkeitsUpdateListener [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] Scooter: 22 wurde ausgeliehen.
+2021-06-17 20:56:44,705 INFO VerfuegbarkeitsUpdateListener [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] Scooter: 22 wurde ausgeliehen.
 2021-06-17 20:56:55,965 INFO io.jaegertracing.internal.reporters.LoggingReporter [http-nio-auto-1-exec-1] Span reported: 6dc7517ce4a9e1fa:6e84a3103647154c:647e67b4f35311ff:1 - isVerfuegbar
 2021-06-17 20:56:55,967 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-auto-1-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: Doofe Katastrophe!] with root cause
 java.lang.RuntimeException: Doofe Katastrophe!
-	at com.predic8.scooter.verfuegbarkeitsservice.VerfuegbarkeitsAPI.isVerfuegbar(VerfuegbarkeitsAPI.java:25)
+	at VerfuegbarkeitsAPI.isVerfuegbar(VerfuegbarkeitsAPI.java:25)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -6888,7 +6888,7 @@ java.lang.RuntimeException: Doofe Katastrophe!
 2021-06-17 21:01:26,134 INFO io.jaegertracing.internal.reporters.LoggingReporter [http-nio-auto-1-exec-1] Span reported: 2da9922320465063:dee8151c43d1a55:261f86f9d89f6479:1 - isVerfuegbar
 2021-06-17 21:01:26,134 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-auto-1-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: Doofe Katastrophe!] with root cause
 java.lang.RuntimeException: Doofe Katastrophe!
-	at com.predic8.scooter.verfuegbarkeitsservice.VerfuegbarkeitsAPI.isVerfuegbar(VerfuegbarkeitsAPI.java:25)
+	at VerfuegbarkeitsAPI.isVerfuegbar(VerfuegbarkeitsAPI.java:25)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -6950,7 +6950,7 @@ java.lang.RuntimeException: Doofe Katastrophe!
 2021-06-17 21:01:28,198 INFO io.jaegertracing.internal.reporters.LoggingReporter [http-nio-auto-1-exec-3] Span reported: 2da9922320465063:4a5fcf49dabd43c6:d0a4f2c21c889ad3:1 - isVerfuegbar
 2021-06-17 21:13:21,522 INFO io.jaegertracing.internal.reporters.LoggingReporter [http-nio-auto-1-exec-6] Span reported: 1940268f983c4c6e:85b56fbc2bd40845:af57602d5615a196:1 - isVerfuegbar
 2021-06-17 21:13:28,417 INFO io.jaegertracing.internal.reporters.LoggingReporter [http-nio-auto-1-exec-8] Span reported: c0a0e08d9600b37a:32da0e157678fd87:780717f79a1c9fea:1 - isVerfuegbar
-2021-06-17 21:13:28,667 INFO com.predic8.scooter.verfuegbarkeitsservice.VerfuegbarkeitsUpdateListener [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] Scooter: 2232 wurde ausgeliehen.
+2021-06-17 21:13:28,667 INFO VerfuegbarkeitsUpdateListener [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] Scooter: 2232 wurde ausgeliehen.
 2021-06-17 21:15:27,183 INFO org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-2, groupId=verfuegbarkeit-service-1] Revoke previously assigned partitions scooter.rueckgabe-0
 2021-06-17 21:15:27,183 INFO org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-verfuegbarkeit-service-1-1, groupId=verfuegbarkeit-service-1] Revoke previously assigned partitions scooter.ausleihe-0
 2021-06-17 21:15:27,183 INFO org.springframework.core.log.LogAccessor [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] verfuegbarkeit-service-1: partitions revoked: [scooter.rueckgabe-0]
@@ -7179,12 +7179,12 @@ java.lang.RuntimeException: Doofe Katastrophe!
 2021-06-17 21:15:36,343 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-auto-1-exec-1] Initializing Servlet 'dispatcherServlet'
 2021-06-17 21:15:36,345 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-auto-1-exec-1] Completed initialization in 2 ms
 2021-06-17 21:16:24,743 INFO io.jaegertracing.internal.reporters.LoggingReporter [http-nio-auto-1-exec-6] Span reported: 92834c40204a3a2a:6c6c749963ecf8cf:fc22d3f67be537f5:1 - isVerfuegbar
-2021-06-17 21:16:25,082 INFO com.predic8.scooter.verfuegbarkeitsservice.VerfuegbarkeitsUpdateListener [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] Scooter: 2232 wurde ausgeliehen.
+2021-06-17 21:16:25,082 INFO VerfuegbarkeitsUpdateListener [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] Scooter: 2232 wurde ausgeliehen.
 2021-06-17 21:17:40,472 INFO io.jaegertracing.internal.reporters.LoggingReporter [http-nio-auto-1-exec-6] Span reported: a77863c895516176:c6171ed4fc8a32a0:27b933c84ac158d6:1 - isVerfuegbar
 2021-06-17 21:18:15,016 INFO io.jaegertracing.internal.reporters.LoggingReporter [http-nio-auto-1-exec-10] Span reported: e2c0758031cb6f6a:ff0792a8cdb83e27:2d47bfe59cf058e5:1 - isVerfuegbar
 2021-06-17 21:18:15,018 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-auto-1-exec-10] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: Doofe Katastrophe!] with root cause
 java.lang.RuntimeException: Doofe Katastrophe!
-	at com.predic8.scooter.verfuegbarkeitsservice.VerfuegbarkeitsAPI.isVerfuegbar(VerfuegbarkeitsAPI.java:25)
+	at VerfuegbarkeitsAPI.isVerfuegbar(VerfuegbarkeitsAPI.java:25)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

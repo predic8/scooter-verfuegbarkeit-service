@@ -1,4 +1,4 @@
-package com.predic8.scooter.verfuegbarkeitsservice.model;
+package de.predic8.scooter.model;
 
 import java.time.LocalDateTime;
 

@@ -1,4 +1,4 @@
-package com.predic8.scooter.verfuegbarkeitsservice;
+package de.predic8.scooter;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -14,10 +14,10 @@ import springfox.documentation.swagger.web.UiConfigurationBuilder;
 import java.time.LocalDate;
 
 @SpringBootApplication
-public class VerfuegbarkeitsApplication {
+public class VerfuegbarkeitsApp {
 
     public static void main(String[] args) {
-        SpringApplication.run(VerfuegbarkeitsApplication.class, args);
+        SpringApplication.run(VerfuegbarkeitsApp.class, args);
     }
 
     @Bean

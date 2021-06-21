@@ -1,6 +1,6 @@
-package com.predic8.scooter.verfuegbarkeitsservice;
+package de.predic8.scooter;
 
-import com.predic8.scooter.verfuegbarkeitsservice.model.Verfuegbarkeit;
+import de.predic8.scooter.model.Verfuegbarkeit;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
