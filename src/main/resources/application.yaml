@@ -4,7 +4,7 @@ spring:
   kafka:
     bootstrap-servers: localhost:9092
     consumer:
-      group-id: verfuegbarkeit-service-${instance}
+      group-id: verfuegbarkeit-service
 
 server:
   port: 8081

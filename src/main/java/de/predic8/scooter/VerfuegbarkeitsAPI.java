@@ -20,9 +20,9 @@ public class VerfuegbarkeitsAPI {
     @GetMapping("/scooter/{id}/verfuegbarkeit")
     public ResponseEntity<Verfuegbarkeit> isVerfuegbar(@PathVariable String id){
 
-        int i = new Random().nextInt(3);
-        if (i == 2)
-            throw new RuntimeException("Doofe Katastrophe!");
+//        int i = new Random().nextInt(3);
+//        if (i == 2)
+//            throw new RuntimeException("Doofe Katastrophe!");
 
         return ok(vService.pruefe(id));
     }

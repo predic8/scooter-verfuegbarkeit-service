@@ -21,7 +21,7 @@ public class VerfuegbarkeitsApp {
     }
 
     @Bean
-    public Docket petApi() {
+    public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
                 .apis(RequestHandlerSelectors.any())
